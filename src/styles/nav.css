@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 12px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+header{
+    background-color: #041e42;
+    color: #ffff;
+}
+
+header > nav > ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+ul > li > button{
+    padding: 7px 10px;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+}
+
+ul > li > button:hover{
+    background-color: #000000;
+    color: #ffff;
+}
+
+nav > .header{
+    font-size: 2.5rem;
+}
