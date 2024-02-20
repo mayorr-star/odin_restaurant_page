@@ -36,18 +36,18 @@ class MenuDish{
     }
 }
 
-const vanillaIceCream = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "dessert");
-const va = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "dessert");
-const van = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "dessert");
-const vani = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "main-dish");
-const vanil = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "main-dish");
-const vanila = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "main-dish");
-const vanilaI = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "side-dish");
-const vanilaIc = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "side-dish");
-const vanilaO = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "side-dish");
-const vas = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "side-dish");
-const vag = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "dessert");
-const vat = new MenuDish("Vanilla Ice Cream", "$12.00", "yhbfbf", "main-dish");
+const vanillaIceCream = new MenuDish("Vanilla Ice Cream", "$8.00", "A subtle but intoxicating combination of sweet, creamy and floral notes.", "dessert");
+const va = new MenuDish("Strawberry Crunch Poke Cake", "$8.00", "Made with real strawberries and rich cream frosting with crunchy cookies.", "dessert");
+const van = new MenuDish("Caramel Cake", "$10.00", "Consist of super moist vanilla brown sugar cake layers and deep flavoured caramel frosting.", "dessert");
+const vani = new MenuDish("Ghana Jollof", "$20.00", "Perfectly cooked with tantalizing ghanaian spices and flavours.", "main-dish");
+const vanil = new MenuDish("Banku and Tilapia", "$25.00", "Traditional Ghanaian dish.", "main-dish");
+const vanila = new MenuDish("Beans and Plantain", "$6.00", "A Ghanaian comfort dish like no other. Rich in protein.", "main-dish");
+const vanilaI = new MenuDish("Garlic Bread", "$12.00", "Classic side dish.", "side-dish");
+const vanilaIc = new MenuDish("French Fries", "$15.00", "Deep fried potatoes, well seasoned with salt.", "side-dish");
+const vanilaO = new MenuDish("Hummus", "$12.00", "Middle eastern dip.", "side-dish");
+const vas = new MenuDish("Bruschetta", "$10.00", "Popular italian appetizer.", "side-dish");
+const vag = new MenuDish("Pancake", "$6.00", "Look no further, steaming stack of perfectly soft, fluffy pancakes are right here.", "dessert");
+const vat = new MenuDish("Beef Enchiladas", "$20.00", "100% worth your time once you tatse them.", "main-dish");
 
 addToMenu(vanillaIceCream);
 addToMenu(va);
