@@ -1,7 +1,10 @@
 import "./styles/homepage.css";
 import "./styles/menupage.css";
+import "./styles/contactpage.css";
 import "./styles/nav.css";
 import renderHomePage from  "./pages/homepage";
 import renderMenuPage from "./pages/menuPage";
+import renderContactPage from "./pages/contactpage";
 // renderHomePage();
-renderMenuPage();
+// renderMenuPage();
+renderContactPage();
