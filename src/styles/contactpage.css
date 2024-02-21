@@ -1,0 +1,28 @@
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.contacts > span{
+    font-size: 1.5rem;
+}
+
+.wrapper{
+    background-color: rgba(0,0, 0, 0.7);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_content > .header{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.contact_content{
+    background-color: white;
+    border-radius: 7px;
+    padding: 25px;
+}
