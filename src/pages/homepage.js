@@ -1,5 +1,5 @@
+const contentContainer = document.getElementById("content");
 const renderHomePage = () => {
-    const contentContainer = document.getElementById("content");
     const mainContainer = document.createElement("main");
     const mainHeading = document.createElement("h1");
     const eatSpan = document.createElement("span");
@@ -20,5 +20,10 @@ const renderHomePage = () => {
     mainHeading.appendChild(eatSpan);
     mainHeading.appendChild(drinkSpan);
     mainHeading.appendChild(smileSpan);
+};
+
+const removeContent = () => {
+    contentContainer.removeChild(contentContainer.firstChild);
 }
+export {removeContent, contentContainer}
 export default renderHomePage;
