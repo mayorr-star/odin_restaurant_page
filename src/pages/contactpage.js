@@ -1,5 +1,5 @@
 import { createMenuElement } from "./menuPage";
-const contentContainer = document.getElementById("content"); 
+import { contentContainer } from "./homepage";
 const header = createMenuElement("h1", "header", "Contact Us");
 const contacts = createMenuElement("article", "contacts", null);
 const email = createMenuElement("span", "email", "Email: nanasCocina@gmail.com");
