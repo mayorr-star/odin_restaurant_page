@@ -1,4 +1,4 @@
-const contentContainer = document.getElementById("content");
+export const contentContainer = document.getElementById("content");
 const renderHomePage = () => {
     const mainContainer = document.createElement("main");
     const mainHeading = document.createElement("h1");
@@ -13,17 +13,16 @@ const renderHomePage = () => {
     drinkSpan.textContent = "Drink.";
     smileSpan.textContent = "Smile.";
     subHeading.textContent = "Authentic local and continental dishes. Just Eat, Drink and Smile."
-
-    contentContainer.appendChild(mainContainer);
+    
     mainContainer.appendChild(mainHeading);
     mainContainer.appendChild(subHeading);
     mainHeading.appendChild(eatSpan);
     mainHeading.appendChild(drinkSpan);
     mainHeading.appendChild(smileSpan);
+    contentContainer.appendChild(mainContainer);
 };
 
-const removeContent = () => {
+export const removeContent = () => {
     contentContainer.removeChild(contentContainer.firstChild);
 }
-export {removeContent, contentContainer}
 export default renderHomePage;
