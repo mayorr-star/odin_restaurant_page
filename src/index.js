@@ -3,7 +3,7 @@ import "./styles/menupage.css";
 import "./styles/contactpage.css";
 import "./styles/nav.css";
 import renderHomePage, { removeContent } from  "./pages/homepage";
-import  renderMenuPage  from "./pages/menupage";
+import  renderMenuPage  from "./pages/menuPage";
 import renderContactPage from "./pages/contactpage";
 
 window.addEventListener("DOMContentLoaded", renderHomePage);
