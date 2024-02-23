@@ -1,5 +1,5 @@
-import { createMenuElement } from "./menuPage";
 import { contentContainer } from "./homepage";
+import { createMenuElement } from "./menuPage";
 const header = createMenuElement("h1", "header", "Contact Us");
 const contacts = createMenuElement("article", "contacts", null);
 const email = createMenuElement("span", "email", "Email: nanasCocina@gmail.com");
@@ -14,6 +14,7 @@ contactsContent.appendChild(header);
 contactsContent.appendChild(contacts);
 contacts.appendChild(instagram);
 wrapper.appendChild(contactsContent);
+
 const renderContactPage = () => {
     contentContainer.appendChild(wrapper);
 }

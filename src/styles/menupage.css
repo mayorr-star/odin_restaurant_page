@@ -2,19 +2,24 @@
     padding: 20px;
     width: 70%;
     margin: 0 auto;
+    border-radius: 12px;
 }
 
 .meal{
     background-color: rgba(0, 0, 0, 0.7);
-    margin-bottom: 20px;
     padding: 15px;
     border-radius: 7px;
     display: flex;
-    flex-direction: column;
     gap: 7px;
     font-size: 1.2rem;
     color: var(--text-color);
     font-weight: 700;
+}
+
+article.meal > .text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
 }
 
 article.meal > h4{
@@ -36,11 +41,8 @@ section > .dish{
     gap: 12px;
 }
 
-.content_container{
-    background-image: url(./myBackground.jpg);
-    background-size: contain;
-}
-
 .menu{
     color: #ffff;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
 }
