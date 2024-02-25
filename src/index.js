@@ -19,7 +19,6 @@ navButtons.forEach(button => {
             case "menu_btn":
                 removeContent();
                 renderMenuPage();
-                console.log(e.target.dataset.id)
                 break;
             default:
                 removeContent();
