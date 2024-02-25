@@ -13,16 +13,15 @@ const createMeal = (name, price, type, imgSrc) => {
     const meal = createHtmlElement("article", "meal", null);
     meal.classList.add(type);
     const textContainer = createHtmlElement("div", "text", null);
-    const imgContainer = createHtmlElement("div", "image", null);
     const mealName = createHtmlElement("span", "name", name);
     const mealPrice = createHtmlElement("span", "price", price);
     const mealImage = new Image();
     mealImage.src = imgSrc;
+    mealImage.classList.add("meal_img")
     textContainer.appendChild(mealName);
     textContainer.appendChild(mealPrice);
-    imgContainer.appendChild(mealImage);
     meal.appendChild(textContainer);
-    meal.appendChild(imgContainer);
+    meal.appendChild(mealImage);
 
     return meal;
 }
