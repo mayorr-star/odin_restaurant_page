@@ -4,7 +4,7 @@ import beans from "./styles/images/beans.jpeg";
 import redVelvetCake from "./styles/images/Red Velvet Cake.jpeg";
 import pumpkinPie from "./styles/images/pumpkin pie.jpeg";
 import bananaPudding from "./styles/images/banana.jpeg";
-import jollof from "./styles/images/jollof.jpg";
+import jollof from "./styles/images/jollof.jpeg";
 import frenchFries from "./styles/images/french fries.jpeg";
 import smashedPotatoes from "./styles/images/Smashed Potatoes.jpeg";
 import creamedSpinach from "./styles/images/creamed spinach.jpeg";
