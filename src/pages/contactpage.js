@@ -1,5 +1,5 @@
 import { contentContainer } from "./homepage";
-import { createHtmlElement } from "./menupage";
+import { createHtmlElement } from "./menuPage";
 const header = createHtmlElement("h1", "header", "Contact Us");
 const contacts = createHtmlElement("article", "contacts", null);
 const email = createHtmlElement("span", "email", "Email: nanasCocina@gmail.com");
