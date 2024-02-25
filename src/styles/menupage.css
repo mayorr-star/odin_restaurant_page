@@ -10,6 +10,7 @@
     padding: 15px;
     border-radius: 7px;
     display: flex;
+    align-items: center;
     gap: 7px;
     font-size: 1.2rem;
     color: var(--text-color);
@@ -20,6 +21,7 @@ article.meal > .text{
     display: flex;
     flex-direction: column;
     row-gap: 12px;
+    width: 60%;
 }
 
 .text > .name, .text > .price{
@@ -49,4 +51,9 @@ section > .dish{
     color: #ffff;
     background-color: rgba(0, 0, 0, 0.7);
     height: 100%;
+}
+
+.meal_img{
+    width: 30%;
+    border-radius: 50%;
 }
