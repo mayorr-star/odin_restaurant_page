@@ -16,7 +16,7 @@ const createMeal = (name, price, type, imgSrc) => {
     const imgContainer = createHtmlElement("div", "image", null);
     const mealName = createHtmlElement("span", "name", name);
     const mealPrice = createHtmlElement("span", "price", price);
-    const mealImage = createHtmlElement("img", "img", null);
+    const mealImage = new Image();
     mealImage.src = imgSrc;
     textContainer.appendChild(mealName);
     textContainer.appendChild(mealPrice);
