@@ -14,7 +14,7 @@
 
 ### Links
 
-- Live Site URL: 
+- Live Site URL: https://mayorr-star.github.io/odin_restaurant_page/
 
 ## My process
 
