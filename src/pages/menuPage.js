@@ -9,19 +9,17 @@ export const createHtmlElement = (element, elementClass, elementContent) => {
     return createdElement;
 }
 
-const createMeal = (name, price, type, description, imgSrc) => {
+const createMeal = (name, price, type, imgSrc) => {
     const meal = createHtmlElement("article", "meal", null);
     meal.classList.add(type);
     const textContainer = createHtmlElement("div", "text", null);
     const imgContainer = createHtmlElement("div", "image", null);
     const mealName = createHtmlElement("span", "name", name);
     const mealPrice = createHtmlElement("span", "price", price);
-    const mealDescription = createHtmlElement("p", "description", description);
     const mealImage = createHtmlElement("img", "img", null);
     mealImage.src = imgSrc;
     textContainer.appendChild(mealName);
     textContainer.appendChild(mealPrice);
-    textContainer.appendChild(mealDescription);
     imgContainer.appendChild(mealImage);
     meal.appendChild(textContainer);
     meal.appendChild(imgContainer);
@@ -49,7 +47,7 @@ const renderMenuPage = () => {
     dessertSection.appendChild(dessertsContainer);
 
     for (const meal of menuData) {
-        const foodItem = createMeal(meal.name, meal.price, meal.type, meal.description, meal.imgSrc)
+        const foodItem = createMeal(meal.name, meal.price, meal.type, meal.imageSrc)
         if (foodItem.classList.contains("main_dish")) {
             mainDishesContainer.appendChild(foodItem);
         } else if (foodItem.classList.contains("side_dish")) {
